@@ -1,0 +1,105 @@
+body {font-size: 25px;} 
+/* *{ padding:0
+     margin:0 } - To overwrite internal and external spacing */  
+/* Pseudo elements 
+h5::before{
+    content: "Hey hi " ;
+}
+h5::after{
+    content: " everyone";
+} */
+
+/*.colors{background-color: green;
+         width: 150px;
+         height: 150px;
+         margin: 250px;
+         border-radius: 50%;
+         position: relative;
+        }
+
+.colors::before {background-color:black;
+    width: 60px;
+    height: 60px;
+    border-radius:50%;
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+}  
+.colors::after {background-color:black;
+    width: 60px;
+    height: 60px;
+    border-radius:50%;
+    position: absolute;
+    content: "";
+    top:0 ;
+    right: 0;
+}      */
+
+/*.clsmk1 {display: block;
+        background-color: yellow;
+        color: green;
+        height:125px ;
+        }
+.clsmk2 {display:block;
+         background-color: red;
+        color: white;}        
+         
+.clsmk3 {display: inline;
+        background-color: green;
+        color: white;}  
+
+.clsmk4 {background-color: blue;
+        color: white;
+        display: inline;}     
+        
+.clsmk5 {display: inline-block;
+        background-color:black ;
+        color: white;
+        height: 150px;
+        width:250px;}
+.clsmk6 {display: inline-block;
+        background-color: orange;
+        color: white;
+        height:;}    */
+
+        /*static position */         
+.stcpos{position: static;
+       background-color: green;
+       color: yellow;
+       border: 2px solid red;}
+
+       /* relative psoition */
+.rltpos{position: relative;
+       background-color: black;
+       color: blue;
+    border: 2px solid red;
+    top: 10px; left: 10px;}       
+
+    /*Absolute position */
+    .cls1
+    {position: relative;
+    background-color: red;
+    height: 250px;
+    width: 250px;
+    left: 300px;
+    }
+
+    .cls2{
+        position: absolute;
+        background-color: blue;
+        height: 80px;
+        width: 80px;
+        top: 0px;
+        right: 0px;
+    }
+
+    /* Fixed position */
+    .fixdpos{
+        position: fixed;
+        background-color: yellow;
+        border: 2px solid red;
+        top: 100px;
+        left: 100px;}
+    
+    /* Sticky position */

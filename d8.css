@@ -1,0 +1,38 @@
+/* Flex in css */
+.claspar{
+    display: flex;
+    background-color: black;
+    color: yellow;
+    gap: 20px;
+    /*flex-direction: row-reverse;*/
+    /*flex-direction: row;*/
+    flex-direction: column ;
+    /*justify-content: space-around;*/
+    /*justify-content: space-between;*/
+    /*justify-content: space-evenly;*/
+
+    align-items: center;
+    /*align-items: flex-start;*/
+    /*align-items: flex-end;*/
+} 
+
+/* Animations in Css */
+button{
+    background-color: green;
+    color: yellow;
+    border: 2px ;
+    padding: 20px;
+    margin: 30px;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: pointer;
+    /*transition*/
+    /*transition-delay: 150ms;*/
+    /*transition-duration: 0ms;*/ 
+    /*transition-property: ;*/
+    /*transition-timing-function: ease-out;*/
+    transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+
+    }
+button:hover{background-color: black;
+            color: red;}

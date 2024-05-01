@@ -1,0 +1,37 @@
+/* h5 {background-color: red; color: white;} */
+/* universal selector */
+/* * {background-color: black; color: green;} */
+ 
+/* Element selector */
+/* h5 { background-color: yellow; color: red ;}*/
+
+ /* Selector list */
+/* h4,h5{background-color: brown; color: black;}*/
+
+/* Id selector */
+/* #h5id {background-color: black; color: brown;}*/
+
+/* Class selector */
+/* .classsel {background-color: yellow; color: green;}*/
+
+/* Descenedent sel */
+/* li a{background-color: yellow; color: black;}*/
+
+/*Direct child sel*/
+/* div>h6 {background-color: red; color: white;}*/
+
+/* Box sel */
+/* span {border: 2px solid blue; color: green;
+      padding: 10px 20px;
+      margin: 100px ;
+} */
+ 
+/* hover state */
+button:hover{background-color: black; color: red;}
+  
+/* Action state */
+button:active{ border: dashed; color: green;
+       cursor:}
+
+ /*focus state */
+ button:focus{background-color: black;color: white;}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Input tags in Html</title>
+</head>
+<body>
+    <marquee>Fuck my life</marquee> <!--u will get a motion popup message-->
+    <h2>Input tags</h2>
+    
+    <label for="Uname">Username:</label>
+    <input 
+    type="text"
+    name="Username" 
+    required 
+    placeholder="Enter Your Name" 
+    id="Uname"
+    value=""/><!--value is added to preserve a store an information-->
+    <br  />
+    <br />
+
+    <label for="Phnum">Phone number:</label>
+    <input
+    type="number" 
+    name="PhNum" 
+    required 
+    placeholder="Enter Your Number" 
+    id="PhNum"
+    value=""
+    />
+    <br />
+    <br />
+
+    <label for="pwd">Password</label>
+    <input 
+    type="password" 
+    name="Password" 
+    required 
+    placeholder="Enter Your Password" 
+    id="pwd"/>
+    <br />
+    <br />
+
+    <label for="email">Email:</label>
+    <input 
+    type="email" 
+    name="email" 
+    required 
+    placeholder="Enter Your Email" 
+    id="email"/>
+    <br />
+    <br />
+
+    <label for="cmt">Comment</label>
+    <!--<input
+    type="text" name="Comment" placeholder="Pls enter your feedback" id="cmt"/>-->
+    <textarea name="Comment" 
+     placeholder="Please enter your feedback" 
+     id="cmt" 
+     rows="10" 
+     cols="100">
+    </textarea>
+    <br />
+    <br />
+
+    <label>Gender:</label>
+    <input type="radio" name="ge" id="Male" checked /><label for="male">Male</label>    <!--checked: to preselect an option-->
+    <input type="radio" name="ge" id="Female" /><label for="female">Female</label>
+    <input type="radio" name="ge" id="prefer" /><label for="prefer">Prefer not to say</label>
+    <br />
+    <br />
+    <label>Select a course:</label>
+    <input type="checkbox" name="crs" id="jv" required /><label for="jv">Java</label>
+    <input type="checkbox" name="crs" id="Js" /><label for="Js">Javascript</label>  <!--checked: to preselect an option-->
+    <input type="checkbox" name="crs" id="Mrn" required /><label for="Mrn">Mern</label>
+    <input type="checkbox" name="crs" id="Py" /><label for="Py">Python</label>
+    <br />
+    <br />
+    <label for="lang">Select a language</label>
+    <select name="language" id="lang" >
+        <option value=""></option>
+        <option value="E">English</option>
+        <option value="M">Malayalam</option>
+        <option value="H">Hindi</option>
+        
+    </select> 
+</body>
+</html>

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Forms in Html</title>
+</head>
+<body>
+    <h2>Forms in html</h2>
+    <form action="Recieving data">
+    <label for="Uname">Username:</label>
+    <input 
+    type="text" name="Username" required placeholder="Enter ur Username" id="Uname" />
+    <br />
+    <br />
+    <label for="PhNum">Phone Number:</label>
+    <input
+    type="number" name="PhNum" required placeholder="Enter ur number" id="PhNum"  />
+    <br />
+    <br />
+    <label for="pwd">Password:<label>
+    <input
+    type="password" name="password" required placeholder="Enter ur password" id="pwd" />
+    <br />
+    <br />
+    <label for="email">Email:</label>
+    <input
+     type="email" name="email" required placeholder="Enter ur email" id="email" />
+     <br />
+     <br />
+     <label for="cmt">Comment</label>
+     <textarea name="comment" placeholder="Enter ur comments" rows="10" cols="100" id="cmt">
+
+     </textarea>
+     <br />
+     <br />
+    
+    
+
+    <label >Gender:</label>                   <!--&nbsp: used to create small space-->
+    <input     
+     type="radio" name="Gender" id="male" /><label for="male">Male</label>  
+    <input                                                                          
+    type="radio" name="Gender" id="female" /><label for="female">Female</label>
+    <input
+    type="radio" name="Gender" id="prefer" /><label for="prefer">Prefer not to say</label>
+    <br />
+    <br />
+    <label>Select ur courses</label>
+    <input
+    type="checkbox" name="crs" id="java" /><label for="java">Java</label>
+    <input
+    type="checkbox" name="crs" id="js" checked /><label for="js">Javascript</label>
+    <input
+    type="checkbox" name="crs" id="py" /><label for="py">Python</label>
+    <input
+    type="checkbox" name="crs" id="mrn" /><label for="mrn">Mern</label>
+    <br />
+    <br />
+    <label for="lang">Select the lang u prefer</label>
+    <select name="language" id="lang">
+        <option value=""></option>
+        <option value="E">English</option>
+        <option value="M">Malayalam</option>
+        <option value="F">french</option>
+    </select>
+    <br /><br />
+    <input
+     type="submit" />
+     <br /><br />
+     <input
+     type="reset" />
+    <!--<button type="submit">Submit</button>
+    <br /><br />
+    <button type="reset">Reset</button>-->
+    </form>
+    <br /><br />
+    <hr />
+    <br />
+    <h3>Input tags in table </h3>
+    <table>
+        <tr>
+            <td> <label>Username:</label></td>
+            <td><input 
+                type="text" name="Username" required placeholder="Enter ur Username" id="Uname" /> </td>
+        </tr>
+        <tr>
+            <td><label for="PhNum">Phone Number:</label></td>
+            <td><input
+                type="number" name="PhNum" required placeholder="Enter ur number" id="PhNum"  /></td>
+        </tr>
+        <tr>
+            <td><label for="pwd">Password:<label></label></td>
+            <td> <input
+                type="password" name="password" required placeholder="Enter ur password" id="pwd" /></td>
+        </tr>
+        <tr>
+            <td><label for="email">Email:</label></td>
+            <td><input
+                type="email" name="email" required placeholder="Enter ur email" id="email" /></td>
+        </tr>
+        <tr>
+            <td><label for="cmt">Comment</label></td>
+            <td><textarea name="comment" placeholder="Enter ur comments" rows="10" cols="100" id="cmt">
+
+            </textarea></td>
+        </tr>
+        <tr>
+            <td><label >Gender:</label> </td>
+            <td><input     
+                type="radio" name="Gender" id="male" /><label for="male">Male</label>  
+               <input                                                                          
+               type="radio" name="Gender" id="female" /><label for="female">Female</label>
+               <input
+               type="radio" name="Gender" id="prefer" /><label for="prefer">Prefer not to say</label></td>
+        </tr>
+        <tr>
+            <td><label>Select ur courses</label></td>
+            <td><input
+                type="checkbox" name="crs" id="java" /><label for="java">Java</label>
+                <input
+                type="checkbox" name="crs" id="js" checked /><label for="js">Javascript</label>
+                <input
+                type="checkbox" name="crs" id="py" /><label for="py">Python</label>
+                <input
+                type="checkbox" name="crs" id="mrn" /><label for="mrn">Mern</label></td>
+        </tr>
+        <tr>
+            <td><label for="lang">Select the lang u prefer</label></td>
+            <td><select name="language" id="lang">
+                <option value=""></option>
+                <option value="E">English</option>
+                <option value="M">Malayalam</option>
+                <option value="F">french</option>
+            </select></td>
+        </tr>
+    </table>
+        <input
+         type="submit" /></td>
+        
+        <input
+         type="reset" /></td>
+        
+</body>
+</html>

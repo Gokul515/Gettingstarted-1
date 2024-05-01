@@ -1,0 +1,41 @@
+/* Media Queries */
+/* Max-width  <= asigned value */
+/*@media only screen and (max-width:1200px){
+    h1{background-color: black;
+       color: yellow;
+       font-size: 50px;} 
+    p{color: red;}    
+}
+@media only screen and (max-width:800px){
+    h1{background-color: black;
+       color: red;
+       font-size: 50px;} 
+    p{color: green;}    
+}
+@media only screen and (max-width:400px){
+    h1{
+       color: blue;
+       font-size: 50px;} 
+    p{color: orange;}    
+}*/
+
+/* Min width: >= assigned value */
+
+@media only screen and (min-width:400px){
+    h1{
+       color: yellow;
+       font-size: 50px;} 
+    p{color: yellow}    
+}
+@media only screen and (min-width:600px){
+    h1{background-color: black;
+       color: red;
+       font-size: 50px;} 
+    p{color: red}    
+}
+@media only screen and (min-width:800px){
+    h1{
+       color: blue;
+       font-size: 50px;} 
+    p{color: blue}    
+}
